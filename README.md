@@ -7,6 +7,8 @@ Pages publiques des jeux, servies sur https://avdev78-creator.github.io/ :
 - `builders-kingdom/` : un dossier par jeu.
   - `confidentialite.html` : politique de confidentialité de Builder's Kingdom, à indiquer dans la Play Console :
     https://avdev78-creator.github.io/builders-kingdom/confidentialite.html
+  - `suppression-donnees.html` : marche à suivre pour supprimer ses données (lien demandé par la Play Console) :
+    https://avdev78-creator.github.io/builders-kingdom/suppression-donnees.html
   - `icon.png` : icône du jeu.
 - `confidentialite.html` (racine) : redirection vers l'ancienne adresse, à garder.
 

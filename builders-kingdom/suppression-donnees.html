@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="icon" href="icon.png">
+<title>Suppression des données de Builder's Kingdom</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Source+Sans+3:wght@400;600;700&display=swap">
+<style>
+*{box-sizing:border-box}body{margin:0}
+/* Mise en page : une colonne de lecture, un en-tête aux couleurs du jeu (herbe, or, pierre), des sections sobres */
+:root{
+  --bg:#fbfaf6; --fg:#2b2418; --muted:#6a604f; --line:#e4dccb; --panel:#f3eedf;
+  --grass:#5d8f34; --gold:#c9900f; --stone:#8e96a0;
+  --display:'Lilita One',ui-rounded,'Arial Rounded MT Bold',system-ui,sans-serif;
+  --body:'Source Sans 3',system-ui,-apple-system,'Segoe UI',sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#1b1a16;--fg:#efe9db;--muted:#b4ab98;--line:#3a3629;--panel:#25231c;--grass:#8cc260;--gold:#e8b23a;--stone:#a9b0b8;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#1b1a16;--fg:#efe9db;--muted:#b4ab98;--line:#3a3629;--panel:#25231c;--grass:#8cc260;--gold:#e8b23a;--stone:#a9b0b8;color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:17px;line-height:1.6}
+.wrap{max-width:44rem;margin:0 auto;padding-block:40px 64px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:grid;gap:28px}
+header{display:grid;gap:8px;border-bottom:3px solid var(--grass);padding-bottom:20px}
+.eyebrow{font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--grass);font-weight:700}
+h1{font-family:var(--display);font-weight:400;font-size:clamp(30px,6vw,42px);line-height:1.05;margin:0;text-wrap:balance}
+.meta{color:var(--muted);font-size:15px;margin:0}
+section{display:grid;gap:10px}
+h2{font-family:var(--display);font-weight:400;font-size:23px;margin:0;color:var(--fg);text-wrap:balance}
+p,ul{margin:0}
+ul{padding-left:20px;display:grid;gap:6px}
+strong{font-weight:700}
+.summary{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:16px 18px;display:grid;gap:8px}
+.summary h2{font-size:20px;color:var(--gold)}
+table{width:100%;border-collapse:collapse;font-size:15px}
+.tbl{overflow-x:auto}
+th,td{text-align:left;vertical-align:top;padding:9px 10px;border-bottom:1px solid var(--line)}
+th{font-weight:700;color:var(--muted);font-size:13px;letter-spacing:.04em;text-transform:uppercase}
+.mail{font-weight:700;color:var(--grass);user-select:all}
+a{color:var(--grass)}
+a:focus-visible,.mail:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+footer{color:var(--muted);font-size:14px;border-top:1px solid var(--line);padding-top:16px}
+</style>
+
+</head>
+<body>
+<main class="wrap">
+  <header>
+    <span class="eyebrow">Builder's Kingdom · avdev78</span>
+    <h1>Supprimer vos données</h1>
+    <p class="meta">Mise à jour le 30 octobre 2026 · Application <code>io.github.avdev78.builderskingdom</code></p>
+  </header>
+
+  <div class="summary">
+    <h2>En bref</h2>
+    <ul>
+      <li>Le développeur ne conserve aucune donnée sur vous : il n'y a ni compte ni serveur de jeu.</li>
+      <li>Votre partie est sur votre téléphone : la désinstallation du jeu la supprime.</li>
+      <li>Pour toute demande, écrivez à <span class="mail" tabindex="0">avdev78@gmail.com</span>, en indiquant « Builder's Kingdom ».</li>
+    </ul>
+  </div>
+
+  <section>
+    <h2>1. Votre partie et vos réglages</h2>
+    <p><strong>Données :</strong> progression, constructions, couronnes, gemmes, réglages du son et du tutoriel, enregistrés uniquement sur votre téléphone.</p>
+    <p><strong>Comment les supprimer :</strong> désinstallez Builder's Kingdom, ou ouvrez Paramètres Android › Applications › Builder's Kingdom › Stockage › <strong>Effacer les données</strong>. La suppression est immédiate et complète ; rien n'est conservé.</p>
+  </section>
+
+  <section>
+    <h2>2. La sauvegarde Google Play Jeux (si vous l'avez activée)</h2>
+    <p><strong>Données :</strong> votre solde de gemmes, sauvegardé dans votre compte Google Play Jeux.</p>
+    <p><strong>Comment la supprimer :</strong> dans l'application Google Play Jeux, ouvrez votre profil › Paramètres › <strong>Supprimer le compte Play Jeux et les données</strong>, puis choisissez Builder's Kingdom dans la liste des données de jeux à supprimer. Vous pouvez aussi nous écrire : nous vous guiderons. La sauvegarde est supprimée dès votre demande ; aucune copie n'est gardée par le développeur.</p>
+  </section>
+
+  <section>
+    <h2>3. Les données publicitaires (Google AdMob)</h2>
+    <p><strong>Données :</strong> identifiant publicitaire, adresse IP et informations sur l'appareil, traités par Google pour les publicités.</p>
+    <p><strong>Comment les supprimer :</strong> dans Paramètres Android › Google › Annonces, choisissez <strong>Supprimer l'identifiant publicitaire</strong> (ou « Réinitialiser »). Les données déjà traitées par Google relèvent de ses <a href="https://policies.google.com/privacy?hl=fr" rel="noopener">règles de confidentialité</a> ; vous pouvez aussi les gérer sur <a href="https://myaccount.google.com/data-and-privacy" rel="noopener">votre compte Google</a>.</p>
+  </section>
+
+  <section>
+    <h2>4. Vos achats</h2>
+    <p>L'historique de vos achats de gemmes est conservé par Google Play, comme l'exige la loi (obligations comptables). Le développeur n'en garde aucune copie. Les gemmes déjà achetées et non sauvegardées dans Play Jeux sont perdues avec la suppression des données du jeu.</p>
+  </section>
+
+  <section>
+    <h2>Une question ?</h2>
+    <p>Écrivez à <span class="mail" tabindex="0">avdev78@gmail.com</span> avec l'objet « Builder's Kingdom – suppression des données ». Nous répondons sous 30 jours au plus. Consultez aussi notre <a href="confidentialite.html">politique de confidentialité</a>.</p>
+  </section>
+
+  <footer>Builder's Kingdom · avdev78@gmail.com</footer>
+</main>
+</body>
+</html>
