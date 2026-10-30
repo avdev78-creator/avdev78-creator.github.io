@@ -9,6 +9,8 @@ Pages publiques des jeux, servies sur https://avdev78-creator.github.io/ :
     https://avdev78-creator.github.io/builders-kingdom/confidentialite.html
   - `suppression-donnees.html` : marche à suivre pour supprimer ses données (lien demandé par la Play Console) :
     https://avdev78-creator.github.io/builders-kingdom/suppression-donnees.html
+  - `privacy.html`, `privacidad.html` : politique de confidentialité en anglais et en espagnol ;
+  - `data-deletion.html`, `eliminar-datos.html` : suppression des données en anglais et en espagnol ;
   - `icon.png` : icône du jeu.
 - `confidentialite.html` (racine) : redirection vers l'ancienne adresse, à garder.
 
