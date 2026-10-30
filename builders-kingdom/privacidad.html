@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="icon" href="icon.png">
+<title>Privacidad de Builder's Kingdom</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Source+Sans+3:wght@400;600;700&display=swap">
+<style>
+*{box-sizing:border-box}body{margin:0}
+/* Mise en page : une colonne de lecture, un en-tête aux couleurs du jeu (herbe, or, pierre), des sections sobres */
+:root{
+  --bg:#fbfaf6; --fg:#2b2418; --muted:#6a604f; --line:#e4dccb; --panel:#f3eedf;
+  --grass:#5d8f34; --gold:#c9900f; --stone:#8e96a0;
+  --display:'Lilita One',ui-rounded,'Arial Rounded MT Bold',system-ui,sans-serif;
+  --body:'Source Sans 3',system-ui,-apple-system,'Segoe UI',sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#1b1a16;--fg:#efe9db;--muted:#b4ab98;--line:#3a3629;--panel:#25231c;--grass:#8cc260;--gold:#e8b23a;--stone:#a9b0b8;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#1b1a16;--fg:#efe9db;--muted:#b4ab98;--line:#3a3629;--panel:#25231c;--grass:#8cc260;--gold:#e8b23a;--stone:#a9b0b8;color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:17px;line-height:1.6}
+.wrap{max-width:44rem;margin:0 auto;padding-block:40px 64px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:grid;gap:28px}
+header{display:grid;gap:8px;border-bottom:3px solid var(--grass);padding-bottom:20px}
+.eyebrow{font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--grass);font-weight:700}
+h1{font-family:var(--display);font-weight:400;font-size:clamp(30px,6vw,42px);line-height:1.05;margin:0;text-wrap:balance}
+.meta{color:var(--muted);font-size:15px;margin:0}
+section{display:grid;gap:10px}
+h2{font-family:var(--display);font-weight:400;font-size:23px;margin:0;color:var(--fg);text-wrap:balance}
+p,ul{margin:0}
+ul{padding-left:20px;display:grid;gap:6px}
+strong{font-weight:700}
+.summary{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:16px 18px;display:grid;gap:8px}
+.summary h2{font-size:20px;color:var(--gold)}
+table{width:100%;border-collapse:collapse;font-size:15px}
+.tbl{overflow-x:auto}
+th,td{text-align:left;vertical-align:top;padding:9px 10px;border-bottom:1px solid var(--line)}
+th{font-weight:700;color:var(--muted);font-size:13px;letter-spacing:.04em;text-transform:uppercase}
+.mail{font-weight:700;color:var(--grass);user-select:all}
+a{color:var(--grass)}
+a:focus-visible,.mail:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+footer{color:var(--muted);font-size:14px;border-top:1px solid var(--line);padding-top:16px}
+.langs{display:flex;gap:14px;font-size:14px;font-weight:700}.langs a{text-decoration:none}.langs span{color:var(--muted)}
+</style>
+
+</head>
+<body>
+<main class="wrap">
+  <header>
+    <span class="eyebrow">Builder's Kingdom · juego Android</span>
+    <h1>Política de privacidad</h1>
+    <p class="meta">Actualizada el 30 de octubre de 2026 · Aplicación <code>io.github.avdev78.builderskingdom</code></p>
+    <nav class="langs" aria-label="Language"><a href="confidentialite.html" hreflang="fr">Français</a> · <a href="privacy.html" hreflang="en">English</a> · <span>Español</span></nav>
+  </header>
+  <div class="summary"><h2>En resumen</h2><ul>
+    <li>El juego no pide cuenta, ni nombre, ni dirección de correo.</li>
+    <li>Tu partida se guarda solo en tu teléfono.</li>
+    <li>Los anuncios los proporciona Google AdMob, que trata algunos datos con tu consentimiento.</li>
+    <li>Los pagos pasan por Google Play: el juego nunca ve tus datos de pago.</li></ul></div>
+  <section><h2>Responsable</h2><p>Builder's Kingdom es un juego desarrollado por Alexis, desarrollador independiente. Para cualquier pregunta sobre tus datos: <span class="mail" tabindex="0">avdev78@gmail.com</span></p></section>
+  <section><h2>Datos guardados por el juego</h2><p>Tu progreso (oleadas, construcciones, mejoras, coronas, gemas, ajustes de sonido y del tutorial) se guarda <strong>en la memoria de tu teléfono</strong>. No se envía al desarrollador. Desinstalar el juego lo borra.</p></section>
+  <section><h2>Anuncios (Google AdMob)</h2><p>El juego muestra anuncios, algunos opcionales y con recompensa. Los proporciona Google AdMob, que puede tratar:</p>
+    <ul><li>el identificador de publicidad de tu dispositivo;</li><li>tu dirección IP, que da una ubicación aproximada;</li><li>información técnica del dispositivo (modelo, versión de Android, idioma);</li><li>tus interacciones con los anuncios (visualizaciones, clics).</li></ul>
+    <p>Estos datos sirven para mostrar los anuncios, medir su rendimiento y prevenir el fraude. En el Espacio Económico Europeo y el Reino Unido, tu elección se pide en el primer inicio mediante el formulario de consentimiento de Google; puedes cambiarla en cualquier momento desde el menú del juego («Privacidad»). También puedes restablecer o eliminar tu identificador de publicidad en los ajustes de Android (Google › Anuncios).</p>
+    <p>Más información: <a href="https://policies.google.com/technologies/partner-sites?hl=es" rel="noopener">cómo usa Google los datos de las aplicaciones asociadas</a>.</p></section>
+  <section><h2>Compras en la aplicación (Google Play)</h2><p>Las gemas y la eliminación de anuncios se compran con el sistema de pago de Google Play. El juego solo recibe una confirmación de compra para acreditarte; nunca tiene acceso a tu medio de pago. Estos pagos se rigen por la <a href="https://policies.google.com/privacy?hl=es" rel="noopener">política de privacidad de Google</a>.</p></section>
+  <section><h2>Guardado en Google Play Juegos (opcional)</h2><p>Si te conectas a Google Play Juegos desde el menú, tu saldo de gemas se guarda en tu cuenta de Google Play Juegos para recuperarlo tras reinstalar o en otro teléfono. No se envía ningún otro dato.</p></section>
+  <section><h2>Resumen</h2><div class="tbl"><table><thead><tr><th>Dato</th><th>Adónde va</th><th>Para qué</th></tr></thead><tbody>
+    <tr><td>Progreso de la partida</td><td>Solo tu teléfono</td><td>Retomar tu partida</td></tr>
+    <tr><td>Identificador de publicidad, dirección IP, información del dispositivo</td><td>Google AdMob</td><td>Anuncios, medición, prevención del fraude</td></tr>
+    <tr><td>Confirmación de compra</td><td>Google Play y luego el juego</td><td>Acreditar gemas y opciones</td></tr>
+    <tr><td>Saldo de gemas (si te conectas)</td><td>Google Play Juegos</td><td>Copia en tu cuenta</td></tr></tbody></table></div></section>
+  <section><h2>Menores</h2><p>El juego no está dirigido a menores de 13 años y no recoge a sabiendas datos sobre ellos.</p></section>
+  <section><h2>Tus derechos</h2><p>Tienes derecho de acceso, rectificación, supresión y oposición sobre tus datos. Como el juego no conserva datos en poder del desarrollador, estos derechos se ejercen principalmente ante Google para los anuncios y Google Play. Para cualquier pregunta, escribe a <span class="mail" tabindex="0">avdev78@gmail.com</span>. Para borrar tus datos, sigue <a href="eliminar-datos.html">estos pasos</a>. También puedes presentar una reclamación ante tu autoridad de protección de datos (en España, la <a href="https://www.aepd.es" rel="noopener">AEPD</a>).</p></section>
+  <section><h2>Cambios</h2><p>Esta política puede cambiar con el juego, por ejemplo si se añaden estadísticas de juego anónimas. La fecha de arriba indica la última versión.</p></section>
+  <footer>Builder's Kingdom · avdev78@gmail.com</footer>
+</main>
+</body>
+</html>

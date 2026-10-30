@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="icon" href="icon.png">
+<title>Eliminar datos de Builder's Kingdom</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Source+Sans+3:wght@400;600;700&display=swap">
+<style>
+*{box-sizing:border-box}body{margin:0}
+/* Mise en page : une colonne de lecture, un en-tête aux couleurs du jeu (herbe, or, pierre), des sections sobres */
+:root{
+  --bg:#fbfaf6; --fg:#2b2418; --muted:#6a604f; --line:#e4dccb; --panel:#f3eedf;
+  --grass:#5d8f34; --gold:#c9900f; --stone:#8e96a0;
+  --display:'Lilita One',ui-rounded,'Arial Rounded MT Bold',system-ui,sans-serif;
+  --body:'Source Sans 3',system-ui,-apple-system,'Segoe UI',sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#1b1a16;--fg:#efe9db;--muted:#b4ab98;--line:#3a3629;--panel:#25231c;--grass:#8cc260;--gold:#e8b23a;--stone:#a9b0b8;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#1b1a16;--fg:#efe9db;--muted:#b4ab98;--line:#3a3629;--panel:#25231c;--grass:#8cc260;--gold:#e8b23a;--stone:#a9b0b8;color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:17px;line-height:1.6}
+.wrap{max-width:44rem;margin:0 auto;padding-block:40px 64px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:grid;gap:28px}
+header{display:grid;gap:8px;border-bottom:3px solid var(--grass);padding-bottom:20px}
+.eyebrow{font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--grass);font-weight:700}
+h1{font-family:var(--display);font-weight:400;font-size:clamp(30px,6vw,42px);line-height:1.05;margin:0;text-wrap:balance}
+.meta{color:var(--muted);font-size:15px;margin:0}
+section{display:grid;gap:10px}
+h2{font-family:var(--display);font-weight:400;font-size:23px;margin:0;color:var(--fg);text-wrap:balance}
+p,ul{margin:0}
+ul{padding-left:20px;display:grid;gap:6px}
+strong{font-weight:700}
+.summary{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:16px 18px;display:grid;gap:8px}
+.summary h2{font-size:20px;color:var(--gold)}
+table{width:100%;border-collapse:collapse;font-size:15px}
+.tbl{overflow-x:auto}
+th,td{text-align:left;vertical-align:top;padding:9px 10px;border-bottom:1px solid var(--line)}
+th{font-weight:700;color:var(--muted);font-size:13px;letter-spacing:.04em;text-transform:uppercase}
+.mail{font-weight:700;color:var(--grass);user-select:all}
+a{color:var(--grass)}
+a:focus-visible,.mail:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+footer{color:var(--muted);font-size:14px;border-top:1px solid var(--line);padding-top:16px}
+.langs{display:flex;gap:14px;font-size:14px;font-weight:700}.langs a{text-decoration:none}.langs span{color:var(--muted)}
+</style>
+
+</head>
+<body>
+<main class="wrap">
+  <header>
+    <span class="eyebrow">Builder's Kingdom · avdev78</span>
+    <h1>Eliminar tus datos</h1>
+    <p class="meta">Actualizado el 30 de octubre de 2026 · Aplicación <code>io.github.avdev78.builderskingdom</code></p>
+    <nav class="langs" aria-label="Language"><a href="suppression-donnees.html" hreflang="fr">Français</a> · <a href="data-deletion.html" hreflang="en">English</a> · <span>Español</span></nav>
+  </header>
+  <div class="summary"><h2>En resumen</h2><ul>
+    <li>El desarrollador no conserva ningún dato sobre ti: no hay cuenta ni servidor de juego.</li>
+    <li>Tu partida está en tu teléfono: desinstalar el juego la borra.</li>
+    <li>Para cualquier solicitud, escribe a <span class="mail" tabindex="0">avdev78@gmail.com</span> indicando «Builder's Kingdom».</li></ul></div>
+  <section><h2>1. Tu partida y tus ajustes</h2><p><strong>Datos:</strong> progreso, construcciones, coronas, gemas, ajustes de sonido y del tutorial, guardados solo en tu teléfono.</p><p><strong>Cómo borrarlos:</strong> desinstala Builder's Kingdom, o abre Ajustes de Android › Aplicaciones › Builder's Kingdom › Almacenamiento › <strong>Borrar datos</strong>. El borrado es inmediato y completo; no se conserva nada.</p></section>
+  <section><h2>2. Guardado en Google Play Juegos (si lo activaste)</h2><p><strong>Datos:</strong> tu saldo de gemas, guardado en tu cuenta de Google Play Juegos.</p><p><strong>Cómo borrarlo:</strong> en la aplicación Google Play Juegos, abre tu perfil › Ajustes › <strong>Eliminar cuenta y datos de Play Juegos</strong> y elige Builder's Kingdom en la lista de datos de juegos que borrar. También puedes escribirnos y te guiaremos. El guardado se borra en cuanto lo solicitas; el desarrollador no conserva ninguna copia.</p></section>
+  <section><h2>3. Datos publicitarios (Google AdMob)</h2><p><strong>Datos:</strong> identificador de publicidad, dirección IP e información del dispositivo, tratados por Google para los anuncios.</p><p><strong>Cómo borrarlos:</strong> en Ajustes de Android › Google › Anuncios, elige <strong>Eliminar ID de publicidad</strong> (o «Restablecer»). Los datos ya tratados por Google se rigen por su <a href="https://policies.google.com/privacy?hl=es" rel="noopener">política de privacidad</a>; también puedes gestionarlos en <a href="https://myaccount.google.com/data-and-privacy" rel="noopener">tu cuenta de Google</a>.</p></section>
+  <section><h2>4. Tus compras</h2><p>Google Play conserva el historial de tus compras de gemas, como exige la ley (obligaciones contables). El desarrollador no conserva ninguna copia. Las gemas compradas y no guardadas en Play Juegos se pierden al borrar los datos del juego.</p></section>
+  <section><h2>¿Alguna pregunta?</h2><p>Escribe a <span class="mail" tabindex="0">avdev78@gmail.com</span> con el asunto «Builder's Kingdom – eliminación de datos». Respondemos en un plazo máximo de 30 días. Consulta también nuestra <a href="privacidad.html">política de privacidad</a>.</p></section>
+  <footer>Builder's Kingdom · avdev78@gmail.com</footer>
+</main>
+</body>
+</html>
