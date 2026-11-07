@@ -12,7 +12,7 @@ Pages publiques des jeux et logiciels, servies sur https://avdev78-creator.githu
   - `privacy.html`, `privacidad.html` : politique de confidentialité en anglais et en espagnol ;
   - `data-deletion.html`, `eliminar-datos.html` : suppression des données en anglais et en espagnol ;
   - `icon.png` : icône du jeu.
-- `restart-monitor/` : Restart Monitor (logiciel Windows) : `confidentialite.html` (FR/EN), `icon.svg` ;
+- `restart-monitor/` : Restart Monitor (logiciel Windows, Microsoft Store) : `confidentialite.html` (FR/EN), `icon.png` ;
 - `sound-blaster-command-switcher/` : Sound Blaster Command Switcher : `icon.svg` (téléchargement sur son dépôt GitHub) ;
 - `confidentialite.html` (racine) : redirection vers l'ancienne adresse, à garder.
 
