@@ -1,6 +1,6 @@
 # Site public de avdev78
 
-Pages publiques des jeux, servies sur https://avdev78-creator.github.io/ :
+Pages publiques des jeux et logiciels, servies sur https://avdev78-creator.github.io/ :
 
 - `index.html` : page d'accueil, avec un encadré par jeu ;
 - `app-ads.txt` : autorisation des vendeurs de publicités (AdMob). Il doit rester à la racine du site, commun à tous les jeux ;
@@ -12,6 +12,8 @@ Pages publiques des jeux, servies sur https://avdev78-creator.github.io/ :
   - `privacy.html`, `privacidad.html` : politique de confidentialité en anglais et en espagnol ;
   - `data-deletion.html`, `eliminar-datos.html` : suppression des données en anglais et en espagnol ;
   - `icon.png` : icône du jeu.
+- `restart-monitor/` : Restart Monitor (logiciel Windows) : `confidentialite.html` (FR/EN), `icon.svg` ;
+- `sound-blaster-command-switcher/` : Sound Blaster Command Switcher : `icon.svg` (téléchargement sur son dépôt GitHub) ;
 - `confidentialite.html` (racine) : redirection vers l'ancienne adresse, à garder.
 
 Pour un nouveau jeu : créer un dossier (par exemple `mon-jeu/`) avec sa propre `confidentialite.html`, et ajouter son encadré dans `index.html`.
