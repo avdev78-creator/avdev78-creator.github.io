@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+<defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2a2f3a"/><stop offset="1" stop-color="#0d1015"/></linearGradient></defs>
+<rect width="256" height="256" rx="56" fill="url(#g)"/>
+<g fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round">
+ <!-- casque -->
+ <path d="M30 122v-12a36 36 0 0 1 72 0v12" stroke-width="10"/>
+ <rect x="24" y="116" width="20" height="36" rx="8" fill="#fff" stroke="none"/>
+ <rect x="88" y="116" width="20" height="36" rx="8" fill="#fff" stroke="none"/>
+ <path d="M98 152c0 16-10 24-26 24" stroke-width="6"/>
+ <circle cx="68" cy="176" r="6" fill="#fff" stroke="none"/>
+ <!-- enceinte -->
+ <path d="M160 112h14l22-18v68l-22-18h-14z" fill="#fff" stroke="#fff" stroke-width="6"/>
+ <path d="M208 112a22 22 0 0 1 0 32" stroke-width="7"/>
+ <path d="M218 100a40 40 0 0 1 0 56" stroke-width="7"/>
+</g>
+<!-- double flèche -->
+<g fill="none" stroke="#e8433a" stroke-width="9" stroke-linecap="round" stroke-linejoin="round">
+ <path d="M108 200h44m-12-12 12 12-12 12"/>
+ <path d="M152 56h-44m12-12-12 12 12 12"/>
+</g>
+</svg>
