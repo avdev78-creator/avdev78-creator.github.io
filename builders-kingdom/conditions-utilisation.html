@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="icon" href="icon.png">
+<title>Conditions d'utilisation de Builder's Kingdom</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Source+Sans+3:wght@400;600;700&display=swap">
+<style>
+*{box-sizing:border-box}body{margin:0}
+/* Mise en page : une colonne de lecture, un en-tête aux couleurs du jeu (herbe, or, pierre), des sections sobres */
+:root{
+  --bg:#fbfaf6; --fg:#2b2418; --muted:#6a604f; --line:#e4dccb; --panel:#f3eedf;
+  --grass:#5d8f34; --gold:#c9900f; --stone:#8e96a0;
+  --display:'Lilita One',ui-rounded,'Arial Rounded MT Bold',system-ui,sans-serif;
+  --body:'Source Sans 3',system-ui,-apple-system,'Segoe UI',sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#1b1a16;--fg:#efe9db;--muted:#b4ab98;--line:#3a3629;--panel:#25231c;--grass:#8cc260;--gold:#e8b23a;--stone:#a9b0b8;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#1b1a16;--fg:#efe9db;--muted:#b4ab98;--line:#3a3629;--panel:#25231c;--grass:#8cc260;--gold:#e8b23a;--stone:#a9b0b8;color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:17px;line-height:1.6}
+.wrap{max-width:44rem;margin:0 auto;padding-block:40px 64px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:grid;gap:28px}
+header{display:grid;gap:8px;border-bottom:3px solid var(--grass);padding-bottom:20px}
+.eyebrow{font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--grass);font-weight:700}
+h1{font-family:var(--display);font-weight:400;font-size:clamp(30px,6vw,42px);line-height:1.05;margin:0;text-wrap:balance}
+.meta{color:var(--muted);font-size:15px;margin:0}
+section{display:grid;gap:10px}
+h2{font-family:var(--display);font-weight:400;font-size:23px;margin:0;color:var(--fg);text-wrap:balance}
+p,ul{margin:0}
+ul{padding-left:20px;display:grid;gap:6px}
+strong{font-weight:700}
+.summary{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:16px 18px;display:grid;gap:8px}
+.summary h2{font-size:20px;color:var(--gold)}
+table{width:100%;border-collapse:collapse;font-size:15px}
+.tbl{overflow-x:auto}
+th,td{text-align:left;vertical-align:top;padding:9px 10px;border-bottom:1px solid var(--line)}
+th{font-weight:700;color:var(--muted);font-size:13px;letter-spacing:.04em;text-transform:uppercase}
+.mail{font-weight:700;color:var(--grass);user-select:all}
+a{color:var(--grass)}
+a:focus-visible,.mail:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+footer{color:var(--muted);font-size:14px;border-top:1px solid var(--line);padding-top:16px}
+.langs{display:flex;gap:14px;font-size:14px;font-weight:700}.langs a{text-decoration:none}.langs span{color:var(--muted)}
+</style>
+
+</head>
+<body>
+<main class="wrap">
+  <header>
+    <span class="eyebrow">Builder's Kingdom · jeu Android</span>
+    <h1>Conditions d'utilisation</h1>
+    <p class="meta">Mise à jour le 14 novembre 2026 · Application <code>io.github.avdev78.builderskingdom</code></p>
+    <nav class="langs" aria-label="Language"><span>Français</span> · <a href="terms.html" hreflang="en">English</a> · <a href="terminos.html" hreflang="es">Español</a></nav>
+  </header>
+
+  <div class="summary">
+    <h2>En bref</h2>
+    <ul>
+      <li>Le jeu est gratuit ; il affiche des publicités et propose des achats facultatifs.</li>
+      <li>Les gemmes sont une monnaie virtuelle du jeu : elles n'ont pas de valeur en argent réel.</li>
+      <li>Votre partie est enregistrée sur votre téléphone : la désinstallation l'efface.</li>
+      <li>Vos droits de consommateur restent entièrement applicables.</li>
+    </ul>
+  </div>
+
+  <section>
+    <h2>Qui édite le jeu</h2>
+    <p>Builder's Kingdom est édité par Alexis, développeur indépendant (avdev78). Contact : <span class="mail" tabindex="0">avdev78@gmail.com</span></p>
+  </section>
+
+  <section>
+    <h2>Acceptation</h2>
+    <p>En installant ou en utilisant Builder's Kingdom, vous acceptez ces conditions. Elles s'ajoutent aux <a href="https://play.google.com/intl/fr_fr/about/play-terms/" rel="noopener">conditions d'utilisation de Google Play</a>, qui régissent le téléchargement et les paiements. Si vous ne les acceptez pas, n'utilisez pas le jeu.</p>
+  </section>
+
+  <section>
+    <h2>Droit d'utilisation</h2>
+    <p>Vous recevez un droit personnel, gratuit, non exclusif et non transférable d'utiliser le jeu sur vos appareils, pour un usage privé et non commercial. Le jeu, ses graphismes, sons, textes et code restent la propriété de leur auteur.</p><p>Il est interdit de copier, revendre ou redistribuer le jeu, de le décompiler ou de le modifier (sauf dans les cas permis par la loi), et de tricher au moyen d'outils extérieurs pour obtenir des gemmes ou des achats sans les payer.</p>
+  </section>
+
+  <section>
+    <h2>Gemmes et achats intégrés</h2>
+    <ul><li>Les gemmes, couronnes et autres objets du jeu sont des éléments virtuels. Ils n'ont aucune valeur en argent réel, ne peuvent pas être échangés contre de l'argent et ne vous appartiennent pas en dehors du jeu.</li><li>Les achats (gemmes, suppression des publicités) sont payés par Google Play et livrés immédiatement dans le jeu. En validant l'achat, vous demandez cette livraison immédiate et reconnaissez perdre votre droit de rétractation une fois le contenu livré, comme le prévoit la loi pour les contenus numériques.</li><li>Les demandes de remboursement suivent les <a href="https://support.google.com/googleplay/answer/2479637?hl=fr" rel="noopener">règles de remboursement de Google Play</a>. En cas de problème (achat non crédité, par exemple), écrivez-moi : je chercherai une solution.</li><li>Le prix et le contenu des offres peuvent évoluer ; un achat déjà effectué n'est pas remis en cause.</li></ul>
+  </section>
+
+  <section>
+    <h2>Publicités</h2>
+    <p>Le jeu affiche des publicités fournies par Google AdMob, dont certaines facultatives qui donnent une récompense. La récompense n'est accordée que si la publicité est regardée jusqu'au bout. Le traitement des données lié aux publicités est décrit dans la <a href="confidentialite.html">politique de confidentialité</a>.</p>
+  </section>
+
+  <section>
+    <h2>Sauvegarde de votre partie</h2>
+    <p>Votre progression est enregistrée dans la mémoire de votre téléphone. Elle peut être perdue si vous désinstallez le jeu, effacez ses données ou changez de téléphone. Si vous vous connectez à Google Play Jeux, votre solde de gemmes et la suppression des publicités sont sauvegardés dans votre compte. Je ne peux pas restaurer une partie perdue autrement.</p>
+  </section>
+
+  <section>
+    <h2>Évolution et disponibilité</h2>
+    <p>Le jeu peut évoluer avec les mises à jour : équilibrage, contenus ajoutés, modifiés ou retirés. Je fais de mon mieux pour qu'il fonctionne correctement, mais je ne peux pas garantir qu'il soit toujours exempt de bugs ou disponible sur tous les appareils. Si le jeu devait être retiré, les achats déjà effectués resteraient utilisables tant que l'application reste installée.</p>
+  </section>
+
+  <section>
+    <h2>Responsabilité</h2>
+    <p>Le jeu est fourni tel quel. Dans les limites permises par la loi, je ne suis pas responsable des dommages indirects liés à son utilisation (par exemple une perte de progression). Rien dans ces conditions ne limite les droits que la loi vous accorde en tant que consommateur, notamment la garantie de conformité des contenus numériques.</p>
+  </section>
+
+  <section>
+    <h2>Données personnelles</h2>
+    <p>Le traitement de vos données est décrit dans la <a href="confidentialite.html">politique de confidentialité</a>. Pour supprimer vos données, suivez <a href="suppression-donnees.html">la marche à suivre</a>.</p>
+  </section>
+
+  <section>
+    <h2>Modifications des conditions</h2>
+    <p>Ces conditions peuvent être mises à jour, par exemple quand le jeu évolue. La date en haut de page indique la dernière version. En continuant à utiliser le jeu après une modification, vous acceptez la nouvelle version.</p>
+  </section>
+
+  <section>
+    <h2>Droit applicable et litiges</h2>
+    <p>Ces conditions sont soumises au droit français. En cas de difficulté, écrivez d'abord à <span class="mail" tabindex="0">avdev78@gmail.com</span> pour trouver une solution amiable. Si vous résidez dans l'Union européenne, vous gardez la protection des règles impératives du pays où vous vivez et pouvez saisir les tribunaux compétents selon la loi.</p>
+  </section>
+
+  <footer>Builder's Kingdom · avdev78@gmail.com</footer>
+</main>
+
+</body>
+</html>
