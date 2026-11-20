@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="icon.png">
+<title>Politique de confidentialité de 3DesktopExplorer</title>
+<style>
+*{box-sizing:border-box}body{margin:0}
+/* Mise en page : une colonne de lecture, un en-tête aux couleurs de l'icône (bleu nuit, jaune, orange), des sections sobres */
+:root{
+  --bg:#f7f9fd; --fg:#16213a; --muted:#5a6680; --line:#dde3ef; --panel:#eef2fa;
+  --blue:#1f4e9a; --gold:#c98a06; --coral:#d4552f;
+  --body:system-ui,-apple-system,'Segoe UI',sans-serif;
+}
+@media (prefers-color-scheme: dark){:root{--bg:#0b1020;--fg:#e8ecff;--muted:#a3adcb;--line:#26304d;--panel:#131b33;--blue:#7fa8ff;--gold:#ffc53d;--coral:#ff8a5b;color-scheme:dark}}
+body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:17px;line-height:1.6}
+.wrap{max-width:44rem;margin:0 auto;padding:40px 16px 64px;display:grid;gap:28px}
+header{display:grid;gap:8px;border-bottom:3px solid var(--blue);padding-bottom:20px}
+.eyebrow{font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--blue);font-weight:700}
+h1{font-weight:700;font-size:clamp(30px,6vw,40px);line-height:1.1;margin:0}
+.meta{color:var(--muted);font-size:15px;margin:0}
+section{display:grid;gap:10px}
+h2{font-weight:700;font-size:21px;margin:0}
+p,ul{margin:0}ul{padding-left:20px;display:grid;gap:6px}
+.summary{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:16px 18px;display:grid;gap:8px}
+.summary h2{font-size:19px;color:var(--gold)}
+.mail{font-weight:700;color:var(--blue);user-select:all}
+a{color:var(--blue)}
+footer{color:var(--muted);font-size:14px;border-top:1px solid var(--line);padding-top:16px}
+.langs{display:flex;gap:14px;font-size:14px;font-weight:700}.langs a{text-decoration:none}.langs span{color:var(--muted)}
+</style>
+</head>
+<body>
+<main class="wrap">
+  <header>
+    <span class="eyebrow">3DesktopExplorer · Logiciel Windows</span>
+    <h1>Politique de confidentialité</h1>
+    <p class="meta">Mise à jour le 20 novembre 2026</p>
+    <nav class="langs" aria-label="Langue"><span>Français</span> · <a href="privacy.html" hreflang="en">English</a></nav>
+  </header>
+  <div class="summary"><h2>En bref</h2><ul>
+    <li>3DesktopExplorer ne collecte aucune donnée personnelle et n'envoie rien sur Internet.</li>
+    <li>Il ne demande ni compte, ni nom, ni adresse e-mail.</li>
+    <li>Il n'affiche aucune publicité et n'utilise ni statistiques ni rapports de plantage.</li>
+    <li>Tout ce qu'il lit et enregistre reste sur votre ordinateur.</li></ul></div>
+  <section><h2>Responsable</h2><p>3DesktopExplorer est développé par Alexis, développeur indépendant. Pour toute question : <span class="mail" tabindex="0">avdev78@gmail.com</span></p></section>
+  <section><h2>Ce que le logiciel lit sur votre ordinateur</h2><p>Pour afficher votre bureau en 3D, 3DesktopExplorer lit, <strong>uniquement sur votre ordinateur</strong> :</p>
+    <ul><li>les noms, icônes et miniatures des fichiers et dossiers de votre bureau et des dossiers que vous ouvrez ;</li>
+    <li>les paramètres des icônes du bureau de Windows (pour afficher Ce PC, la Corbeille…) ;</li>
+    <li>lors d'une recherche sur tout l'ordinateur, les résultats de l'index Windows Search.</li></ul>
+    <p>Les fichiers ne sont renommés, déplacés, créés ou mis à la corbeille qu'à votre demande.</p></section>
+  <section><h2>Ce que le logiciel enregistre</h2><p>La disposition de vos icônes, vos groupes (cubes et sphères), vos vues enregistrées et onglets, la position des fenêtres et un cache d'icônes sont enregistrés dans le dossier de réglages du logiciel, sur votre ordinateur. Ils ne sont jamais envoyés au développeur. La désinstallation du logiciel les supprime.</p></section>
+  <section><h2>Réseau</h2><p>3DesktopExplorer fonctionne entièrement hors ligne. Les mises à jour de la version Microsoft Store sont gérées par le Microsoft Store, selon la <a href="https://privacy.microsoft.com" rel="noopener">déclaration de confidentialité de Microsoft</a>.</p></section>
+  <section><h2>Enfants</h2><p>Le logiciel ne collecte sciemment aucune donnée, y compris concernant les enfants.</p></section>
+  <section><h2>Vos droits</h2><p>Le développeur ne détenant aucune donnée vous concernant, il n'y a rien à consulter ni à supprimer de son côté. Pour toute question, écrivez à <span class="mail" tabindex="0">avdev78@gmail.com</span>. Vous pouvez aussi contacter l'autorité de protection des données (en France, la <a href="https://www.cnil.fr" rel="noopener">CNIL</a>).</p></section>
+  <section><h2>Modifications</h2><p>Cette politique peut évoluer avec le logiciel, par exemple si une fonction en ligne est ajoutée. La date en haut de la page indique la dernière version.</p></section>
+  <footer>3DesktopExplorer · avdev78@gmail.com</footer>
+</main>
+</body>
+</html>
